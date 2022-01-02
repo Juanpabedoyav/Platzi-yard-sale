@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: yellowgreen;
+    --sm:12px;
+    --md:16px;
+    --lg:18px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}

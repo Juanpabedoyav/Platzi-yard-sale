@@ -1,0 +1,27 @@
+.navBar{
+    /* border: 1px solid red; */
+    /* height: 5vh; */
+    font-size: 1.6rem;
+}
+.navBar_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:10px;
+
+}
+.navBar_item{
+/* border: 1px solid red; */
+width: 100%;
+ list-style: none;
+ text-align: center;
+}
+.navBar_nav .navBar_item:nth-child(1){
+    color:red;
+    text-align: left;
+}
+.navBar_nav .navBar_item:nth-child(3){
+    color:red;
+    text-align: right;
+}
