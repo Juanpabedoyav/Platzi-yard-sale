@@ -79,6 +79,8 @@
     font-weight: 700;
     font-size: var(--md);
     background-color: var(--hospital-green);
+    cursor: pointer;
+
 }
 @media (min-width: 640px){
     .form_img{
