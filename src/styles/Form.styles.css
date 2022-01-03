@@ -15,8 +15,8 @@
 /* images of form */
 .form_img{
     /* border:1px solid red; */
-    margin: 48px auto;
-    width: 140px;
+    margin: 0px auto;
+    margin-bottom: 48px;
 }
 .form_img >.img{
     width: 100%;

@@ -16,8 +16,11 @@ const Email = () => {
                 <figure className='email_sent'>
                     <img className='img' src={email} alt="logo" />
                 </figure>
-              
                 <button className='primary-button'>Login</button> 
+                <p className='resend'>
+                    <span>Didn't recieve the email?</span>
+                    <a href="/">Resend</a>
+                </p>
             </section>
     </div>
     )

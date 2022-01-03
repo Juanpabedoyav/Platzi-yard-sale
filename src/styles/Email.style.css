@@ -15,7 +15,8 @@
 /* images of form */
 .email_img{
     /* border:1px solid red; */
-    margin: 48px auto;
+    margin: 0px auto;
+    margin-bottom: 48px;
     width: 140px;
 }
 .email_img >.img{
@@ -25,10 +26,15 @@
 .email_sent{
     /* border:1px solid red; */
     margin: 40px auto;
-    width: 100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--text-input-field);
 }
 .email_sent > .img{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 .email_title{
@@ -63,6 +69,22 @@
     font-size: var(--md);
     background-color: var(--hospital-green);
     cursor: pointer;
+}
+.resend{
+    margin-top: 12px;
+    text-align: center;
+    font-size: var(--sm);
+    font-weight: 500;
+}
+.resend span{
+    font-weight: 300;
+}
+.resend a{
+    text-decoration: none;
+    color: var(--hospital-green);
+    font-weight: 700;
+    margin-left: 8px;
+    font-size: var(--md);
 }
 @media (min-width: 640px){
     .email_img{
