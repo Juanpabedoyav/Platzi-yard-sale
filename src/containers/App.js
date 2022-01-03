@@ -1,19 +1,9 @@
-// import NavBar from "../components/NavBar";
-// import Email from "../components/Email";
-// import NewPassword from "../components/NewPassword";
-
-// import SignUp from "../components/SignUp";
-
-import Login from "../components/Login";
+import AppRouter from "../router/AppRouter";
 
 function App() {
   return (
   <>
-  {/* <NavBar/> */}
-  {/* <NewPassword/> */}
-  {/* <Email/> */}
-  <Login/>
-{/* <SignUp /> */}
+  <AppRouter/>
   </>
   );
 }
