@@ -1,6 +1,7 @@
 import React from 'react'
-import '../styles/Form.styles.css'
+import '../styles/NewPassword.style.css'
 import logo_yard_sale from '../assets/logos/logo_yard_sale.svg'
+
 const NewPassword = () => {
     return (
     <div className='recovery'>

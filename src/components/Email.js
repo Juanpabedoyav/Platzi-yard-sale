@@ -2,6 +2,8 @@ import React from 'react'
 import logo_yard_sale from '../assets/logos/logo_yard_sale.svg'
 import '../styles/Email.style.css'
 import email from '../assets/icons/email.svg'
+
+
 const Email = () => {
     return (
         <div className='email'>
